@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Usando as tags de HTML5</title>
+<link rel="stylesheet" href="estilo.css" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+</head>
+<body>
+  <header id="cabecalho">    
+    <nav id="menu_esquerdo">
+      <a href="index.html"> Home</a>
+      <a href="#quemsomos"> Quem Somos</a>
+      <a href="#menu_s"> Menu</a>
+      <a href="#contato"> Contato</a> 
+    </nav> 
+     
+    <nav id="menu_direito">
+      <a href="#" class="link3"> Cadastro para Delivery </a> 
+    </nav>
+</header>
+
+	<main>	 
+		<section id="miolo">   
+      <div class="fundo-miolo" style="position: absolute; width: 75%; height: 400px; background-color: rgba(43, 40, 40, 0.8); top: 100px; border-radius: 0px 15px 15px 0px;"></div>
+      <div id="lado_esquerdo"> 
+        <header id="titulo_meio"  class="texto">
+          StudiosTatu
+        </header>
+         <p id="p1" style="font-family: novafonte;">Venha conhecer nosso studio de tatuagem, temos diversas opções de tatuagens de todos os estilos, junto com a melhor equipe de tatuadores que cuidaram muito bem de você!
+        </p>
+        <button class="custom-btn btn-6 link4"><span>Saiba Mais</span></button>
+      </div>
+		
+		</section>
+          <a name="quemsomos" id="quemsomos">
+    <section id="quem_somos">   
+			<div id="lado_esquerdo"  class="texto2"> 
+            <header id="titulo_meio2" style="color:rgb(255, 255, 255)">
+					      Venha nos Vistar e conheçer<br> nosso Studio!
+		  		  </header>
+		   		<p style="color:rgb(255, 255, 255); font-size: 16px; margin-top: 50px; font-family: novafonte;">Estamos no bairo da Vila Romana há mais de 25 anos, em um espaço com 500m2, muito arejado. Temos todo o conforto que poderá lhe deixar muito satisfeito e temos certeza de você vai gostar!
+				</p>
+        <button class="custom-btn btn-4 link6">Veja Mais</button>
+			</div>
+
+      <div id="lado_direito" class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1262723424693!2d-46.69708208538482!3d-23.52796036624394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8768338062b%3A0xc990914f925240f4!2sR.%20Tito%2C%2054%20-%20Vila%20Romana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005051-000!5e0!3m2!1spt-BR!2sbr!4v1648162419010!5m2!1spt-BR!2sbr" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+		</section>
+         
+    <section id="menu">      
+			          <div class="conatiner">
+
+                  <div id="titulo_menu" style="font-size: 40px;">
+                    Diversas opções de tatu pra você!
+                  </div>  
+
+                  <div class="wrap">
+                    
+                    <div class="box one">
+                      <img src="imagens/dragon.jpg" style="width: 100%; height: 315px; position: relative;  background-size: cover; border-radius: 10px; cursor: pointer;">
+                    </div>
+                    
+                    <div class="box two">
+                      <img src="imagens/Braço.jpg" style="width: 100%; height: 315px; position: relative;  background-size: cover; border-radius: 10px; cursor: pointer;">
+                    </div>
+                    
+                    <div class="box three">
+                      <img src="imagens/tatuFechada.jpg" style="width: 100%; height: 315px; position: relative;  background-size: cover; border-radius: 10px; cursor: pointer;">
+                    </div>  
+                    
+                    <div class="box one">
+                      <img src="imagens/dragao2.jpg" style="width: 100%; height: 315px; position: relative;  background-size: cover; border-radius: 10px; cursor: pointer;">
+                    </div>
+
+                    <div class="box two">
+                      <img src="imagens/fechado.jpg" style="width: 100%; height: 315px; position: relative;  background-size: cover; border-radius: 10px; cursor: pointer;">
+                    </div>                    
+                  </div>  
+                                  
+                </div>            
+                  
+    </section>       <button class="custom-btn btn-6 link8" style="background-color: brown; color: black; "><span>Mais Opcões de Tatu</span></button>
+              <a name="contato" id="contato">
+                <section id="contact">
+  
+                  <h1 class="section-header">Contact</h1>
+                  
+                  <div class="contact-wrapper">
+                  
+                  <!-- Left contact page --> 
+                    
+                    <form id="contact-form" class="form-horizontal" role="form">
+                       
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                        </div>
+                      </div>
+                
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                        </div>
+                      </div>
+                
+                      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                      
+                      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" style="background-color: brown; border-radius: 5px;">
+                        <div class="alt-send-button">
+                          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+                        </div>                      
+                      </button>
+                      
+                    </form>
+                    
+                
+                  
+                </section>  
+                  
+                  
+          <footer><p>Pizza Nostra - Rua Tito, 54 - Vila Romana - SP CEP: 03535-000 Tel: (11) 2888-5566</p></footer>
+	</main>
+</body>
+</html>
